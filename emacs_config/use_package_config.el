@@ -1,0 +1,8 @@
+;;initilize and load use-packge if not existing this must be the first config to be loaded
+(dolist (package '(use-package))
+  (unless (package-installed-p package)
+    (package-install package)))
+
+(eval-when-compile
+  (require 'use-package)
+  )
