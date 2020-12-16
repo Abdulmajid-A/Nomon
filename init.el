@@ -16,7 +16,7 @@
    [default default default italic underline success warning error])
  '(custom-enabled-themes '(wombat))
  '(package-selected-packages
-   '(use-package restart-emacs magit vterm ace-window rust-mode)))
+   '(browse-kill-ring use-package restart-emacs magit vterm ace-window rust-mode)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

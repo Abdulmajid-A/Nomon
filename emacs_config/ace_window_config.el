@@ -5,7 +5,7 @@
 (global-set-key (kbd "C-x o") 'ace-window)
 
 ;;remove the gray background
-;;(with-eval-after-load "ace-window-display-mode"
+;;(with-eval-after-load "ace-window"
 ;;  (setq aw-background nil))
 
 ;;until we find what ace-window-mode and ...display-mode they mean we will suppstute the above with this

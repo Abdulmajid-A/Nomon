@@ -25,9 +25,17 @@
 			  "toolbar_config"
 			  "eshell_password_cache_config"
 			  "tmux_term_paragraph_dir_config"
+			  "vterm_init"
+			  "vterm_timer_delay_remove"
 			  "vterm_rebind_copy_mode"
 			  "vterm_max_scrollback_config"
+			  "search_highlight_color_change"
+			  "region_highlight_color_change"
+			  "browse_kill_ring_init"
+			  "org_init"
+			  "org_wordwrap_config"
+			  "column_number_config"
                           ))
 ;;			"eshell_M_n_M_p_rebind"
 ;;			"term_rebind_M_n_and_M_p.el"
-;;			"max_lines_in_buffer_config"
+
