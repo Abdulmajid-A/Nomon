@@ -1,4 +1,4 @@
-;;initilize and load use-packge if not existing this must be the first config to be loaded
+;;initilize and load use-packge if not existing. This must be the first config to be loaded
 (dolist (package '(use-package))
   ;;if not existent download it
   (unless (package-installed-p package)

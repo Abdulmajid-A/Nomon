@@ -1,14 +1,18 @@
 ;;configuration for the ace-window package
-(require 'ace-window)
+
+
+(use-package ace-window
+  :bind (
+	 ("C-x o" . ace-window)
+	 )
+  )
 
 ;;bind it to the given key
-(global-set-key (kbd "C-x o") 'ace-window)
 
-;;remove the gray background
+;;remove the gray background(PUT IT INSIDE USE PACKAGE
 ;;(with-eval-after-load "ace-window"
 ;;  (setq aw-background nil))
 
-;;until we find what ace-window-mode and ...display-mode they mean we will suppstute the above with this
-;;(setq aw-background nil)
-     
-(message "loaded ace-window config")
+
+
+

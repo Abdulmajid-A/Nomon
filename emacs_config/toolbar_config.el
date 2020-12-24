@@ -2,5 +2,3 @@
 (if window-system
     (tool-bar-mode -1)
   )
-
-(message "loaded toolbar_config")

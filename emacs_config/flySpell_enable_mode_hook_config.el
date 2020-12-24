@@ -1,0 +1,4 @@
+;;enable flyspell in text mode (and derived modes latex,tex, org..)
+(use-package flyspell-mode
+  :hook text-mode)
+;;(add-hook 'text-mode-hook 'flyspell-mode)
