@@ -16,7 +16,23 @@
     ))
 
 ;; load my configuration files
-(aconf:load-config-file '("use_package_config"
+(aconf:load-config-file '("straight_init"
+			  "use_package_config"
+			  "dired_config"
+			  "dired_x_config"
+			  "magit_init"
+			  "dash_init"
+			  "async_init"
+			  "async_dired_init"
+			  "f_init"
+			  "s_init"
+			  "anzu_init"
+			  "auto_highlight_symbol_init"
+			  "expand_region_init"
+			  "hl_todo_init"
+			  "move_text_init"
+			  "markdown_mode_init"
+			  "yaml_mode_init"
 			  "backup_config"
 			  "restart_emacs_mod_config"
 			  "copy_paste_config"
@@ -31,5 +47,11 @@
 			  "flySpell_enable_mode_hook_config"
 			  "menu_bar_config"
 			  "scroll_bar_config"
+			  "bell_sound_remove_win"
+			  "auto_package_update_init"
+			  "open_full_screen"
+			  "split_screen_on_startup"
+			  "force_wrap_lines_config"
+			  "fill_column_indicator_config"
+			  "fill_column_value_config"
                           ))
-

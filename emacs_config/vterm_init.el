@@ -1,5 +1,6 @@
 (unless (or (eq system-type 'windows-nt) (eq system-type 'ms-dos))
   (use-package vterm
+  :straight t
     :config
     (setq vterm-max-scrollback 4096)
     (setq vterm-timer-delay nil)

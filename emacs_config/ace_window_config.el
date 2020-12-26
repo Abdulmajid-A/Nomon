@@ -2,6 +2,7 @@
 
 
 (use-package ace-window
+  :straight t
   :bind (
 	 ("C-x o" . ace-window)
 	 )
