@@ -4,6 +4,6 @@
   :bind
   (
    :map yaml-mode-map
-   ("C-m" newline-and-indent)
+   ("C-m" . newline-and-indent)
    )
   )
