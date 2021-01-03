@@ -50,6 +50,8 @@
 			  "helm_init"
 			  "helm_descbinds_init"
 			  "helm_grep_ag_config"
+			  "projectile_init"
+			  "helm_projectile_init"
 			  "minions_init"
 			  "all_the_icons_init"
 			  "doom_moodline_init"
