@@ -20,9 +20,9 @@ GNU Emacs >= 25
 #+BEGIN_SRC sh
   cd emacs/
   ./autogen.sh
-  ##for vterm
+  # for vterm
   ./configure --with-modules
-  ##normal
+  # normal
   ./configure
   make
   make install
@@ -32,8 +32,7 @@ GNU Emacs >= 25
 + 
   - Start Emacs for the first time
   - Make sure folder ~/.emacs.d exist, if not create it
-  - Clone this repo in ~/.emacs.d
-  -    
+  - Clone this repo in ~/.emacs.d   
 #+BEGIN_SRC sh
   git clone https://github.com/Abdulmajid-A/Nomon.git .
 #+END_SRC
