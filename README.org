@@ -28,8 +28,8 @@ GNU Emacs >= 25
   make install
 #+END_SRC
 
-** Initial setup
-+ 
+** Installation
++ Initial setup
   - Start Emacs for the first time
   - Make sure folder ~/.emacs.d exist, if not create it
   - Clone this repo in ~/.emacs.d   
