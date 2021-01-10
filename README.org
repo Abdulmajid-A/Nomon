@@ -1,0 +1,44 @@
+*Nomon* is an emacs configuration repo that aims for ease of use, configuring, performance and understandability, hence,
+it's at continuous updates and modification.
+
+* Usage
+** Requirements
+GNU Emacs >= 25
+** Default
+*Nomon* can be used directly without dependency, but if you want to use *Vterm* then you will have to check
+[[https://github.com/akermu/emacs-libvterm#requirements][Vterm requirements page]].
+** Building Emacs for *Vterm*
+[[http://ergoemacs.org/emacs/building_emacs_from_git_repository.html][Reference]]
++ requirements
+  - build-essential
+  - Emacs build dependencies (in Ubuntu you must enable *source-code* option in *Software & Update*)
+    
++ To build Emacs clone their repo from either
+  - [[https://git.savannah.gnu.org/git/emacs.git][Savannah]]
+  - [[https://github.com/emacs-mirror/emacs.git][Github]]
+    
+#+BEGIN_SRC sh
+  cd emacs/
+  ./autogen.sh
+  ##for vterm
+  ./configure --with-modules
+  ##normal
+  ./configure
+  make
+  make install
+#+END_SRC
+
+** Initial setup
++ 
+  - Start Emacs for the first time
+  - Make sure folder ~/.emacs.d exist, if not create it
+  - Clone this repo in ~/.emacs.d
+  -    
+#+BEGIN_SRC sh
+  git clone https://github.com/Abdulmajid-A/Nomon.git .
+#+END_SRC
+  - enjoy :D
+
+
+  
+Any suggestion is welcomed.
