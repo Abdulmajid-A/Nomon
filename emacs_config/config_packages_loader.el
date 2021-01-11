@@ -58,7 +58,7 @@
 			  "scroll_bar_config"
 			  "column_number_config"
 			  "bell_sound_remove_win"
-			  "doom_moodline_init"
+			  "doom_modeline_init"
 			  "doom_theme_init"
 			  "search_highlight_color_change"
 			  "region_highlight_color_change"

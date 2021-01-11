@@ -2,7 +2,7 @@
   :straight t
   :init (doom-modeline-mode 1)
   :config
-  (setq doom-modeline-height 32)
+  (setq doom-modeline-height 30)
   (setq doom-modeline-bar-width 3)
   (setq doom-modeline-window-width-limit fill-column)
 
@@ -96,13 +96,13 @@
 
   ;; Whether display the environment version.
   (setq doom-modeline-env-version t)
- ;; Or for individual languages
- ;; (setq doom-modeline-env-enable-python t)
- ;; (setq doom-modeline-env-enable-ruby t)
- ;; (setq doom-modeline-env-enable-perl t)
- ;; (setq doom-modeline-env-enable-go t)
- ;; (setq doom-modeline-env-enable-elixir t)
- ;; (setq doom-modeline-env-enable-rust t)
+  ;; Or for individual languages
+  ;; (setq doom-modeline-env-enable-python t)
+  ;; (setq doom-modeline-env-enable-ruby t)
+  ;; (setq doom-modeline-env-enable-perl t)
+  ;; (setq doom-modeline-env-enable-go t)
+  ;; (setq doom-modeline-env-enable-elixir t)
+  ;; (setq doom-modeline-env-enable-rust t)
 
   ;; Change the executables to use for the language version string
   (setq doom-modeline-env-python-executable "python") ; or `python-shell-interpreter'
