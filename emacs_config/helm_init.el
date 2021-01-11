@@ -71,7 +71,6 @@
    ("C-<return>" . helm-lisp-completion-at-point);;FOR NOW ONLY MAY CHANGE LATER BASED ON PACKAGES
    :map lisp-interaction-mode-map ;;for the scratches buffer and any similar
    ("C-M-i" . helm-lisp-completion-at-point)
-   ("C-<return>" . helm-lisp-completion-at-point);;FOR NOW ONLY MAY CHANGE LATER BASED ON PACKAGESs
    :map shell-mode-map
    ("C-c C-l" . helm-comint-input-ring)
    :map minibuffer-local-map
