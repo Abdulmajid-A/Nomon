@@ -16,7 +16,8 @@
     ))
 
 ;; load my configuration files
-(aconf:load-config-file '("straight_init"
+(aconf:load-config-file '("functions_init"
+			  "straight_init"
 			  "use_package_config"
 			  "dired_config"
 			  "dired_x_config"
