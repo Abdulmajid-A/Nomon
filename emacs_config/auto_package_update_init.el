@@ -1,5 +1,5 @@
-(unless (or (f-exists? (nomon:concat_config_dir ".locks/auto_package_update_last_check.lk"))
-	    (s-equals? (f-read-text (nomon:concat_config_dir ".locks/auto_package_update_last_check.lk")) (format-time-string "%Y:%m:%d")))
+(when (or (not(f-exists? (nomon:concat_config_dir ".locks/auto_package_update_last_check.lk")))
+	  (not(s-equals? (f-read-text (nomon:concat_config_dir ".locks/auto_package_update_last_check.lk")) (format-time-string "%Y:%m:%d"))))
   (use-package auto-package-update
     :straight t
     :if window-system
