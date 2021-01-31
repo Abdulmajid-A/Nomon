@@ -14,7 +14,14 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
+ '(anzu-deactivate-region t)
+ '(anzu-mode-lighter "")
+ '(company-backends
+   '(company-bbdb company-semantic company-cmake company-capf company-clang company-files
+		  (company-dabbrev-code company-gtags company-yasnippet company-etags company-keywords)
+		  company-oddmuse company-dabbrev))
  '(custom-enabled-themes '(wombat))
+ '(irony-extra-cmake-args nil)
  '(package-selected-packages
    '(browse-kill-ring use-package restart-emacs magit vterm ace-window rust-mode)))
 (custom-set-faces

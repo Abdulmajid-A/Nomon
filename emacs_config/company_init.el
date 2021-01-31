@@ -10,5 +10,9 @@
    ("C-<return>" . company-complete)
    :map company-active-map
    ("C-<return>" . company-complete)
+   ("M-n" . nil)
+   ("M-p" . nil)
+   ("C-n" . company-select-next)
+   ("C-p" . company-select-previous)
    )
   )
