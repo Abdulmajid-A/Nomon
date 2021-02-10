@@ -23,6 +23,7 @@
 			  "dired_x_config"
 			  "dash_init"
 			  "magit_init"
+			  "which_key_mod_init"
 			  "highlight_parentheses_init"
 			  "company_init"
 			  "yasnippet_init"
@@ -65,6 +66,7 @@
 			  "helm_lsp_mode_init"
 			  "company_lsp_init"
 			  ;;			  "treemacs_lsp_mode_init"
+			  
 			  "dap_mode_init"
 			  "ccls_mode_init"
 			  "company_quickhelp_mode_init"
