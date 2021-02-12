@@ -15,3 +15,4 @@ locks
 .locks
 .idea
 .lsp-session-*
+.dap-breakpoints

@@ -40,7 +40,7 @@
           treemacs-silent-filewatch              nil
           treemacs-silent-refresh                nil
           treemacs-sorting                       'alphabetic-asc
-          treemacs-space-between-root-nodes      t
+          treemacs-space-between-root-nodes      nil;;try t
           treemacs-tag-follow-cleanup            t
           treemacs-tag-follow-delay              1.5
           treemacs-user-mode-line-format         nil

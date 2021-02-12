@@ -17,6 +17,8 @@
 
 ;; load my configuration files
 (aconf:load-config-file '("functions_init"
+			  "gc_cons_threshold_modif"
+			  "read_process_output_max_modif"
 			  "straight_init"
 			  "use_package_config"
 			  "dired_config"
@@ -65,7 +67,7 @@
 			  "lsp_ui_mode_init"
 			  "helm_lsp_mode_init"
 			  "company_lsp_init"
-			  ;;			  "treemacs_lsp_mode_init"
+			  "treemacs_lsp_mode_init"
 			  
 			  "dap_mode_init"
 			  "ccls_mode_init"

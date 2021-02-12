@@ -4,6 +4,7 @@
   (global-company-mode)
   (setq company-tooltip-idle-delay 0)
   (setq company-idle-delay 0)
+  (setq company-minimum-prefix-length 1)
   :bind
   (
    :map company-mode-map

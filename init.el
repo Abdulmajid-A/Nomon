@@ -22,8 +22,11 @@
 		  company-oddmuse company-dabbrev))
  '(custom-enabled-themes '(wombat))
  '(irony-extra-cmake-args nil)
+ '(lsp-clients-clangd-args '("--clang-tidy"))
+ '(lsp-disabled-clients '(ccls))
  '(package-selected-packages
-   '(browse-kill-ring use-package restart-emacs magit vterm ace-window rust-mode)))
+   '(browse-kill-ring use-package restart-emacs magit vterm ace-window rust-mode))
+ '(treemacs-space-between-root-nodes nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
