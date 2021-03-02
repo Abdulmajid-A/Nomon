@@ -1,0 +1,14 @@
+# -*- mohde: snippet -*-
+# name: insert a comment with the creattor name and file name, creation date, revision, and the copyright notice
+# key: __file_copyright_info_comment__
+# condition: (= (buffer-size) 0)
+# contributor: Abdulmajid(abdulmajeed1922@gmail.com)
+# --
+/* ==================================================================================================================
+   \$File: \$
+   \$Date: \$
+   \$Creation_date: `(format-time-string "%Y:%m:%dT%H:%M:%S")`
+   \$Revision: \$
+   \$Creator: `(user-login-name)` \$
+   \$Notice: (C) Copyright `(format-time-string "%Y")` by `(user-login-name)`, Inc. All Rights Reserved. \$
+   ================================================================================================================== */

@@ -68,12 +68,12 @@
 			  "helm_lsp_mode_init"
 			  "company_lsp_init"
 			  "treemacs_lsp_mode_init"
-			  
 			  "dap_mode_init"
 			  "ccls_mode_init"
 			  "company_quickhelp_mode_init"
 			  "minions_init"
 			  "aggressive_indent_init"
+			  "plantuml_mod_init"
 			  "all_the_icons_init"
 			  "menu_bar_config"
 			  "scroll_bar_config"

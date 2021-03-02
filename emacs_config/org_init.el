@@ -9,8 +9,7 @@
   :config
   (setq org-log-done t)
   (setq org-emphasis-alist '(("*" (:foreground "#C57F39")) ("*" bold) ("/" italic) ("_" underline) ("=" org-verbatim verbatim) ("~" org-code verbatim) ("+" (:strike-through t))))
-  (add-hook 'org-mode-hook 'enable_visual_line_mode_and_org_indent_mode
-	    )
+  (add-hook 'org-mode-hook 'enable_visual_line_mode_and_org_indent_mode)
   :bind (("C-c l" . org-store-link)
 	 ("C-c a" . org-agenda)
 	 )
