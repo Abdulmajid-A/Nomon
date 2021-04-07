@@ -22,7 +22,7 @@
 		  company-oddmuse company-dabbrev))
  '(custom-enabled-themes '(wombat))
  '(irony-extra-cmake-args nil)
- '(lsp-clients-clangd-args '("--clang-tidy"))
+ '(lsp-clients-clangd-args '("--clang-tidy" "--background-index"))
  '(lsp-disabled-clients '(ccls))
  '(package-selected-packages
    '(browse-kill-ring use-package restart-emacs magit vterm ace-window rust-mode))

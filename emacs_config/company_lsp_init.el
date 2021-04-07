@@ -1,6 +1,7 @@
 (use-package company-lsp
   :straight t
   ;;  :after (company lsp)
-  :config
+  :init
   (push 'company-lsp company-backends)
-  (setq company-transformers nil company-lsp-async t company-lsp-cache-candidates nil))
+  (setq company-transformers nil company-lsp-async t company-lsp-cache-candidates nil)
+  )

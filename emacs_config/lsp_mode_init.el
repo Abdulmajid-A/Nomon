@@ -12,6 +12,12 @@
   ;;(for now we will do it mannually later make it automatic based on clangd hook(if any)
   ;;  (setq lsp-clients-clangd-args "--clang-tidy")
   ;;)
+  :bind
+  (
+   :map lsp-mode-map
+	("C-c l = f" . clang-format-region)
+	("C-c l = b" . clang-format-buffer)
+   )
 
   :hook (;; replace XXX-mode with concrete major-mode(e. g. python-mode)
 	 ;;(XXX-mode . lsp)
